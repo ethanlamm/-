@@ -1,0 +1,33 @@
+常见的块级元素有：
+<h1>~<h6> <p>,<div>,<ul>,<ol>,<li>  
+dl -dt-dd - 定义列表  
+form - 交互表单  
+hr - 水平分隔线   
+table - 表格  
+dir - 目录列表
+address - 地址
+blockquote - 块引用
+fieldset - form控制组
+
+
+
+常见的行内元素有：
+<a >,<strong>,<b>,<em>,<i>,<del>,<span >
+br - 换行   
+img - 图片   
+input - 输入框   
+textarea - 多行文本输入框 
+label - 表格标签   
+select - 项目选择  section 
+
+
+行内块元素：
+<hr> //分隔线  <br/> //换行      <img> //图片   <input> //文本框
+<td> //单元格
+link meta
+
+替换元素：
+hr - 水平分隔线    块     行内块     css定义高度和宽度
+br - 换行             行内   行内块
+img - 图片          行内   行内块
+input - 输入框    行内   行内块

@@ -1,0 +1,25 @@
+1.上下排列-标准流，左右排列-浮动
+2.先设置盒子大小，后摆放位置
+
+导航栏：宽度随文字内容而改变的，用padding来控制宽度。
+
+先大后小，先确定每个盒子的大小，然后确定位置。
+
+若给出了宽度，左右padding或左右margin会改变宽度；
+若给出了高度，上下padding或上下margin会改变高度；
+
+浮动的盒子与父盒子不会有外边距合并或塌陷问题
+若父与子都是标准流，子元素加上下margin，会有合并问题，取而代之可以给父元素加上下padding，就会解决合并问题
+
+一个盒子里：
+若是单行文字要居中的，且父元素有了高度，用子元素行高=父元素高度，子元素(文字字号)变大，不会影响父元素，且永远居中。
+
+若是多行文字的，且父元素未给高度的，在父元素里调上下padding，此时父元素高度随子元素的内容增加而增加，但子元素永远垂直居中。
+
+background:  color  url(....)  no-repeat  scroll/fixed  position(x y; top/center/botton  left/center/right)
+
+less插件：easy less
+vh,vw插件：px2vw
+
+table-hd/table-dd
+轮播图--js

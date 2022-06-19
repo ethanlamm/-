@@ -1,0 +1,37 @@
+本地分支操作
+1.将本地分支推送至远程仓库
+首次：git push -u origin 本地分支名称:远程分支名称
+其他：先将分支切换至要推送的本地分支：git checkout 本地分支名称
+再：git push 即可
+
+2.查看本地分支列表
+git branch
+
+3.创建分支、切换分支以及快速创建和切换
+创建：git branch 分支名称
+切换：git checkout 分支名称
+快速：git checkout -b 分支名称
+
+4.合并分支
+先切换到主分支：git checkout master
+合并：git merge 分支名称
+
+合并冲突时：先手动修改保留需要的version
+再：git add.   git commit -m '解决了合并冲突问题'
+
+5.删除分支
+git branch -d 分支名称
+强制：git branch -D 分支名称
+
+---------------------------------------------
+远程分支操作
+1.查看远程分支列表
+git remote show origin
+
+2.将远程分支下载至本地仓库(跟踪分支)
+首次：git checkout -b 本地分支名称 origin/远程分支名称
+其他(更新代码)：先将分支切换至要更新的本地分支：git checkout 本地分支名称
+再：git pull 即可
+
+3.删除分支
+git push origin --delete 远程分支名称
