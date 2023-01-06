@@ -6,9 +6,9 @@ MongoDB的安装
 
 下载地址：[Download MongoDB Community Server | MongoDB](https://www.mongodb.com/try/download/community)
 
-![image-20221115230317716](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115230317716.png)
+![image-20221115230317716](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230333936.png)
 
-![image-20221115230333936](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115230333936.png)
+![image-20221115230333936](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230317716.png)
 
 
 
@@ -44,7 +44,7 @@ MongoDB的安装
 
 建议不勾选`Install MongoDB Compass`——MongoDB的官方图形用户界面，可以后自行安装 [MongoDB Compass Download | MongoDB](https://www.mongodb.com/try/download/compass)，点击Next
 
-![image-20221115230945994](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115230945994.png)
+![image-20221115230945994](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115231521342.png)
 
 
 
@@ -68,7 +68,7 @@ MongoDB的安装
 
 在安装MongoDB的文件夹中，新建一个文件夹`Client`，将刚才解压的其中文件复制到`Client`文件夹中
 
-![image-20221115231521342](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115231521342.png)
+![image-20221115231521342](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230945994.png)
 
 
 
@@ -80,7 +80,7 @@ MongoDB的安装
 
 打开终端，输入`mongsh`，出现以下内容就OK
 
-![image-20221115232300856](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115232300856.png)
+![image-20221115232300856](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232744908.png)
 
 
 
@@ -90,17 +90,17 @@ MongoDB的安装
 
 选择 网络和共享中心
 
-![image-20221115232706160](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115232706160.png)
+![image-20221115232706160](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232706160.png)
 
 
 
 选择 Internet 选项
 
-![image-20221115232744908](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115232744908.png)
+![image-20221115232744908](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232300856.png)
 
 连接 => 局域网配置
 
-![image-20221115232906896](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221115232906896.png)
+![image-20221115232906896](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20230106091803662.png)
 
 
 
@@ -110,7 +110,7 @@ MongoDB的安装
 
 四、文档
 
-![image-20230106091803662](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20230106091803662.png)
+![image-20230106091803662](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232906896.png)
 
 
 
