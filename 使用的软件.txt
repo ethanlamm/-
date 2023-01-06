@@ -1,10 +1,9 @@
 前端：
-1.hbuilder app版 3.1.13
-2.微信开发者工具 1.05.2103200  1.05.2105170
-(追上云 wxc27ac1929f0cd766)
+1.HbuilderX
+2.微信开发者工具
 3.vscode
 4.faststone capture(官网)
-5.nodejs 16.15.0
+5.nvm nodejs 16.15.0
 6.pycharm
 7.python
 8.git
@@ -17,16 +16,16 @@
 2.cpuz(官网)
 3.NDM(百度网盘/我的资源/浏览器插件，破解PC软件)
 4.onlyoffice(官网)
-5.steam++(官网)
+5.steam++(微软商店)
 6.nohboard(百度网盘/我的资源/浏览器插件，破解PC软件)
 7.everything
 8.geek
 9.notepad3(百度网盘/我的资源/浏览器插件，破解PC软件)
-10.讯飞输入法
+10.Typora(克隆窝)+PicGo-Core(command line)(配置：https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 11.tim(qq)
 12.阿里云盘
-13.potplater(微软商店)
-14.markdown lite(微软商店)
-15.DrawBoard PDF(微软商店)
-16.snipaste(微软商店)
-17.网易云(百度网盘/我的资源/浏览器插件，破解PC软件)
+13.PotPlayer(微软商店)
+14.DrawBoard PDF(微软商店)
+15.snipaste(微软商店)
+16.Listen 1
+17.Clash for Windows
