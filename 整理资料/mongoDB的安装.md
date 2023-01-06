@@ -44,7 +44,7 @@ MongoDB的安装
 
 建议不勾选`Install MongoDB Compass`——MongoDB的官方图形用户界面，可以后自行安装 [MongoDB Compass Download | MongoDB](https://www.mongodb.com/try/download/compass)，点击Next
 
-![image-20221115230945994](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115231521342.png)
+![image-20221115231521342](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230945994.png)
 
 
 
@@ -68,7 +68,7 @@ MongoDB的安装
 
 在安装MongoDB的文件夹中，新建一个文件夹`Client`，将刚才解压的其中文件复制到`Client`文件夹中
 
-![image-20221115231521342](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230945994.png)
+![image-20221115230945994](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115231521342.png)
 
 
 
@@ -78,9 +78,11 @@ MongoDB的安装
 
 查看是否成功：
 
-打开终端，输入`mongsh`，出现以下内容就OK
+打开终端，输入**mongsh**，出现以下内容就OK
 
-![image-20221115232300856](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232744908.png)
+![image-20221115232744908](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232300856.png)
+
+
 
 
 
@@ -88,33 +90,29 @@ MongoDB的安装
 
 若发现重启后电脑不能连网，右键=>打开"网络和Internet"设置
 
-选择 网络和共享中心
+选择  网络和共享中心
 
 ![image-20221115232706160](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232706160.png)
 
+选择 Internet 选项(左下角)
 
-
-选择 Internet 选项
-
-![image-20221115232744908](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232300856.png)
+![image-20221115232300856](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232744908.png)
 
 连接 => 局域网配置
-
-![image-20221115232906896](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20230106091803662.png)
-
-
-
-完成
-
-
-
-四、文档
 
 ![image-20230106091803662](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115232906896.png)
 
 
 
-查看所有方法
+四、文档
+
+![image-20221115232906896](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20230106091803662.png)
+
+
+
+
+
+查看所有API
 
 - 方法一：点击左侧`MongoDB Shell(mongosh)`=>`Reference`=>`Methods`
 - 方法二：点击左侧`Reference`=>`mongosh Methods`
