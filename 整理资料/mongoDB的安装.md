@@ -6,9 +6,11 @@ MongoDB的安装
 
 下载地址：[Download MongoDB Community Server | MongoDB](https://www.mongodb.com/try/download/community)
 
+![image-20221115230333936](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230317716.png)
+
 ![image-20221115230317716](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230333936.png)
 
-![image-20221115230333936](https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20221115230317716.png)
+
 
 
 
