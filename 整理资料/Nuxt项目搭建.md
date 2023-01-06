@@ -79,7 +79,7 @@ import { NButton } from 'naive-ui'
 
 1）选择Nuxt
 
-<img src="C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20220820173541774.png" alt="image-20220820173541774" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20220820173541774.png" alt="image-20220820173541774" style="zoom:50%;" />
 
 2）安装	`npm i nuxt-windicss -D`
 
