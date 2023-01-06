@@ -105,3 +105,17 @@ MongoDB的安装
 
 
 完成
+
+
+
+四、文档
+
+![image-20230106091803662](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20230106091803662.png)
+
+
+
+查看所有方法
+
+- 方法一：点击左侧`MongoDB Shell(mongosh)`=>`Reference`=>`Methods`
+- 方法二：点击左侧`Reference`=>`mongosh Methods`
+
