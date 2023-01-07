@@ -79,7 +79,7 @@ import { NButton } from 'naive-ui'
 
 1）选择Nuxt
 
-<img src="https://raw.githubusercontent.com/ethanlamm/notes/image/img/image-20220820173541774.png" alt="image-20220820173541774" style="zoom:50%;" />
+![image-20220820173541774](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20220820173541774.png)
 
 2）安装	`npm i nuxt-windicss -D`
 
