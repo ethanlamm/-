@@ -1,12 +1,14 @@
 MongoDB的安装
 
+参考：[Window环境下，安装MongoDB及Mongo Shell详细教程](https://www.cnblogs.com/lveyHang/p/16866309.html)
+
 官网：www.mongodb.com
 
 一、安装MongoDB
 
 下载地址：[Download MongoDB Community Server | MongoDB](https://www.mongodb.com/try/download/community)
 
-![image-20221115231521342](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115230317716.png)
+![image-20221115230317716](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115230317716.png)
 
 
 
@@ -46,7 +48,7 @@ MongoDB的安装
 
 建议不勾选`Install MongoDB Compass`——MongoDB的官方图形用户界面，可以后自行安装 [MongoDB Compass Download | MongoDB](https://www.mongodb.com/try/download/compass)，点击Next
 
-<img src="https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115230945994.png" alt="image-20221115230317716"  />
+<img src="https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115230945994.png" alt="image-20221115230945994"  />
 
 
 
@@ -72,7 +74,7 @@ MongoDB的安装
 
 在安装MongoDB的文件夹中，新建一个文件夹`Client`，将刚才解压的其中文件复制到`Client`文件夹中
 
-![image-20221115230945994](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115231521342.png)
+![image-20221115231521342](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115231521342.png)
 
 
 
@@ -84,7 +86,7 @@ MongoDB的安装
 
 打开终端，输入**mongsh**，出现以下内容就OK
 
-![image-20221115232906896](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232300856.png)
+![image-20221115232300856](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232300856.png)
 
 
 
@@ -96,17 +98,17 @@ MongoDB的安装
 
 选择  网络和共享中心
 
-![image-20221115232300856](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232706160.png)
+![image-20221115232706160](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232706160.png)
 
 选择 Internet 选项(左下角)
 
-![image-20221115232706160](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232744908.png)
+![image-20221115232744908](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232744908.png)
 
 
 
 连接 => 局域网配置
 
-![image-20221115232744908](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232906896.png)
+![image-20221115232906896](https://alicloud-imgs.oss-cn-guangzhou.aliyuncs.com/img/image-20221115232906896.png)
 
 
 
@@ -123,3 +125,87 @@ MongoDB的安装
 - 方法一：点击左侧`MongoDB Shell(mongosh)`=>`Reference`=>`Methods`
 - 方法二：点击左侧`Reference`=>`mongosh Methods`
 
+
+
+常用方法
+
+- **mongosh**：连接数据库
+
+- **show dbs**：查看所有database
+
+```sh
+test> show dbs
+admin           40.00 KiB
+blog           120.00 KiB
+config         108.00 KiB
+learn_mongodb   40.00 KiB
+local           96.00 KiB
+```
+
+- **use database_name**：操作某个database
+
+```sh
+test> use blog
+switched to db blog
+```
+
+- **show collections**：查看该database的所有collection
+
+```
+blog> show collections
+admins
+categories
+```
+
+- **db.collection_name.find()**：查找某一collection的所有数据
+
+```
+blog> db.categories.find()
+[
+  {
+    _id: ObjectId("63ba79c68f47012d90b8679f"),
+    title: '后端',
+    keyword: 'koa',
+    __v: 0
+  },
+  {
+    _id: ObjectId("63ba7a420759a018503b4ae1"),
+    title: '前端',
+    keyword: 'vue',
+    __v: 0
+  },
+  {
+    _id: ObjectId("63ba8a0536b546272c4c1a99"),
+    title: '全栈',
+    keyword: 'all stack',
+    __v: 0
+  }
+]
+```
+
+- **db.collection_name.deleteOne()、db.collection_name.deleteMany()**：删除该collection的数据
+
+```sh
+// 删除
+blog> db.categories.deleteOne({title:'全栈'})
+{ acknowledged: true, deletedCount: 1 }
+
+// 查看所有
+blog> db.categories.find()
+[
+  {
+    _id: ObjectId("63ba79c68f47012d90b8679f"),
+    title: '后端',
+    keyword: 'koa',
+    __v: 0
+  },
+  {
+    _id: ObjectId("63ba7a420759a018503b4ae1"),
+    title: '前端',
+    keyword: 'vue',
+    __v: 0
+  }
+]
+```
+
+- **ctrl+c**：退出
