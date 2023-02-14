@@ -4,6 +4,8 @@
 
 通过 `XMLHttpRequest` 可以在不刷新页面的情况下请求特定 URL，获取数据。这允许网页在不影响用户操作的情况下，更新页面的局部内容。
 
+**传统Ajax（原生JS的Ajax）——基于XHR**
+
 1.通过`new`关键字创建XHR异步对象
 
 2.设置回调函数
@@ -16,6 +18,16 @@
 
 ```js
 const xhr = new XMLHttpRequest()
+
+xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4){ // 整个请求过程完毕
+        if(xhr.status >= 200 && xhr.status <= 300){
+            console.log(xhr.responseText) // 服务端返回的结果
+        }else if(xhr.status >=400){
+            console.log("错误信息：" + xhr.status)
+        }
+    }
+}
 
 xhr.open(method, url, [async][, user][, password])
 /*
@@ -34,21 +46,11 @@ body: 在 XHR 请求中要发送的数据体，如果不传递数据则为 null
 	将请求数据添加到open()方法中的url地址中
 	发送请求数据中的send()方法中参数设置为null
 */
-
-xhr.onreadystatechange = function(){
-    if(xhr.readyState === 4){ // 整个请求过程完毕
-        if(xhr.status >= 200 && xhr.status <= 300){
-            console.log(xhr.responseText) // 服务端返回的结果
-        }else if(xhr.status >=400){
-            console.log("错误信息：" + xhr.status)
-        }
-    }
-}
 ```
 
 
 
-##### 二、ajax
+##### 二、jQuery中的Ajax
 
 指的是 jquery 对 XHR 的封装，XHR 是 ajax 功能实现所依赖的对象
 
